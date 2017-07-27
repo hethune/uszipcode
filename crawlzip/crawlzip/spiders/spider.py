@@ -29,6 +29,9 @@ class ZipSpider(Spider):
   'Denver':
         ['Denver', 'Thornton', 'Aurora', 'Centennial', 'Boulder', 'Longmont'],
 
+  'austin':
+        ['Austin','Round Rock','Bastrop','San Marcos']
+
   }
 
   all_zips = defaultdict(list)
